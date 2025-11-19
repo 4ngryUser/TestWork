@@ -1,6 +1,6 @@
 using Microsoft.Data.Sqlite;
 
-var dbPath = Path.Combine(Directory.GetCurrentDirectory(), "orangehrm.db");
+var dbPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "OrangeHRM.API", "orangehrm.db");
 var connectionString = $"Data Source={dbPath}";
 
 using (var connection = new SqliteConnection(connectionString))

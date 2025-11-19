@@ -158,3 +158,4 @@ L:\TestWork\OrangeHRM.API\obj\Debug\net8.0\refint\OrangeHRM.API.dll
 L:\TestWork\OrangeHRM.API\obj\Debug\net8.0\OrangeHRM.API.pdb
 L:\TestWork\OrangeHRM.API\obj\Debug\net8.0\OrangeHRM.API.genruntimeconfig.cache
 L:\TestWork\OrangeHRM.API\obj\Debug\net8.0\ref\OrangeHRM.API.dll
+L:\TestWork\OrangeHRM.API\obj\Debug\net8.0\OrangeHRM.API.sourcelink.json
