@@ -41,3 +41,4 @@ L:\TestWork\QueryDb\obj\Debug\net8.0\refint\QueryDb.dll
 L:\TestWork\QueryDb\obj\Debug\net8.0\QueryDb.pdb
 L:\TestWork\QueryDb\obj\Debug\net8.0\QueryDb.genruntimeconfig.cache
 L:\TestWork\QueryDb\obj\Debug\net8.0\ref\QueryDb.dll
+L:\TestWork\QueryDb\obj\Debug\net8.0\QueryDb.sourcelink.json
