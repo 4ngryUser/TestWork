@@ -1,0 +1,267 @@
+2025-11-18 17:44:01.116 +04:00 [INF] База данных инициализирована
+2025-11-18 17:44:01.178 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:44:01.209 +04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5167: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-18 17:44:01.216 +04:00 [FTL] Приложение завершилось с ошибкой
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5167: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in L:\TestWork\OrangeHRM.API\Program.cs:line 82
+2025-11-18 17:44:12.948 +04:00 [INF] База данных инициализирована
+2025-11-18 17:44:13.036 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:44:13.120 +04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7072: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-18 17:44:13.140 +04:00 [FTL] Приложение завершилось с ошибкой
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7072: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in L:\TestWork\OrangeHRM.API\Program.cs:line 82
+2025-11-18 17:44:42.863 +04:00 [INF] База данных инициализирована
+2025-11-18 17:44:42.926 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:45:33.245 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-11-18 17:45:33.321 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 78.7212 ms
+2025-11-18 17:46:09.171 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 23.3521 ms
+2025-11-18 17:46:15.471 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-18 17:46:15.489 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-18 17:46:15.491 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 17:46:16.348 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 17:46:16.350 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 17:46:18.505 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 17:46:18.829 +04:00 [DBG] Поле Username заполнено
+2025-11-18 17:46:18.883 +04:00 [DBG] Поле Password заполнено
+2025-11-18 17:46:18.930 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 17:46:20.950 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 17:46:44.520 +04:00 [WRN] Employment Status: значение 'Full-Time Contract' не найдено. Доступные: -- Select --, Full-Time Permanent, Full-Time Probation, Helloworld, jhondhoe, Part-Time Contract, Part-Time Internship
+2025-11-18 17:46:44.606 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Employment Status 'Full-Time Contract' not found
+2025-11-18 17:46:44.610 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 29149.2418 ms
+2025-11-18 17:47:06.838 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-18 17:47:06.838 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-18 17:47:06.838 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 17:47:07.908 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 17:47:07.908 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 17:47:09.895 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 17:47:10.207 +04:00 [DBG] Поле Username заполнено
+2025-11-18 17:47:10.260 +04:00 [DBG] Поле Password заполнено
+2025-11-18 17:47:10.305 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 17:47:12.317 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 17:47:36.036 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-18 17:47:48.670 +04:00 [DBG] Значение 'Software Engineer' успешно выбрано в поле 'Job Title'
+2025-11-18 17:47:48.670 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-18 17:48:01.356 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-18 17:48:01.356 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-18 17:48:13.981 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-18 17:48:13.981 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-18 17:48:26.630 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-18 17:48:26.630 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-18 17:48:43.031 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-18 17:48:44.590 +04:00 [INF] Сотрудник успешно добавлен с ID: HANCF1V
+2025-11-18 17:48:44.708 +04:00 [INF] Сотрудник сохранен в БД: HANCF1V
+2025-11-18 17:48:44.708 +04:00 [INF] Данные сотрудника сохранены в БД: HANCF1V
+2025-11-18 17:48:44.791 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: HANCF1V
+2025-11-18 17:48:44.792 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 97954.4250 ms
+2025-11-18 17:54:25.855 +04:00 [INF] База данных инициализирована
+2025-11-18 17:54:25.942 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:55:24.888 +04:00 [INF] База данных инициализирована
+2025-11-18 17:55:24.948 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:55:51.603 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-11-18 17:55:51.679 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-18 17:55:51.693 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-18 17:55:51.695 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 17:55:52.543 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 17:55:52.545 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 17:55:54.730 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 17:55:55.081 +04:00 [DBG] Поле Username заполнено
+2025-11-18 17:55:55.165 +04:00 [DBG] Поле Password заполнено
+2025-11-18 17:55:55.228 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 17:55:57.246 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 17:56:17.878 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-18 17:56:30.529 +04:00 [DBG] Значение 'Software Engineer' успешно выбрано в поле 'Job Title'
+2025-11-18 17:56:30.529 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-18 17:56:43.178 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-18 17:56:43.178 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-18 17:56:55.822 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-18 17:56:55.822 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-18 17:57:08.476 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-18 17:57:08.476 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-18 17:57:21.139 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-18 17:57:22.694 +04:00 [INF] Сотрудник успешно добавлен с ID: S0WU1CO
+2025-11-18 17:57:22.816 +04:00 [INF] Сотрудник сохранен в БД: S0WU1CO
+2025-11-18 17:57:22.816 +04:00 [INF] Данные сотрудника сохранены в БД: S0WU1CO
+2025-11-18 17:57:22.903 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: S0WU1CO
+2025-11-18 17:57:22.915 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 91315.1745 ms
+2025-11-18 17:58:29.582 +04:00 [INF] Получен запрос на создание претензии для сотрудника: S0WU1CO
+2025-11-18 17:58:29.583 +04:00 [INF] Начало создания претензии для сотрудника: S0WU1CO
+2025-11-18 17:58:29.583 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 17:58:30.599 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 17:58:30.599 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 17:58:32.524 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 17:58:32.841 +04:00 [DBG] Поле Username заполнено
+2025-11-18 17:58:32.894 +04:00 [DBG] Поле Password заполнено
+2025-11-18 17:58:32.940 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 17:58:34.954 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 17:58:38.626 +04:00 [DBG] Сотрудник найден в БД: S0WU1CO
+2025-11-18 17:58:38.626 +04:00 [INF] Получено ФИО из БД для employeeId S0WU1CO: Иван Петрович Сидоров
+2025-11-18 18:01:18.491 +04:00 [WRN] Не удалось выбрать сотрудника 'Иван Петрович Сидоров' из автокомплита
+2025-11-18 18:01:18.568 +04:00 [WRN] Не удалось создать претензию. Ошибка: Сотрудник 'Иван Петрович Сидоров' не найден в системе OrangeHRM
+2025-11-18 18:01:18.577 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 169002.0921 ms
+2025-11-18 18:02:48.924 +04:00 [INF] База данных инициализирована
+2025-11-18 18:02:48.984 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 18:07:26.920 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-11-18 18:07:26.985 +04:00 [INF] Получен запрос на создание претензии для сотрудника: S0WU1CO
+2025-11-18 18:07:26.990 +04:00 [INF] Начало создания претензии для сотрудника: S0WU1CO
+2025-11-18 18:07:26.991 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 18:07:27.650 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 18:07:27.651 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 18:07:29.730 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 18:07:30.080 +04:00 [DBG] Поле Username заполнено
+2025-11-18 18:07:30.156 +04:00 [DBG] Поле Password заполнено
+2025-11-18 18:07:30.215 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 18:07:32.235 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 18:07:35.883 +04:00 [DBG] Сотрудник найден в БД: S0WU1CO
+2025-11-18 18:07:35.883 +04:00 [INF] Получено ФИО из БД для employeeId S0WU1CO: Иван Петрович Сидоров
+2025-11-18 18:09:16.492 +04:00 [WRN] Не удалось выбрать сотрудника 'Иван Петрович Сидоров' из автокомплита
+2025-11-18 18:09:16.569 +04:00 [WRN] Не удалось создать претензию. Ошибка: Сотрудник 'Иван Петрович Сидоров' не найден в системе OrangeHRM
+2025-11-18 18:09:16.582 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 109664.6674 ms
+2025-11-18 18:15:20.907 +04:00 [INF] База данных инициализирована
+2025-11-18 18:15:20.971 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 18:16:00.051 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-11-18 18:16:00.117 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-18 18:16:00.128 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-18 18:16:00.129 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 18:16:00.926 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 18:16:00.927 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 18:16:03.042 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 18:16:03.555 +04:00 [DBG] Поле Username заполнено
+2025-11-18 18:16:03.751 +04:00 [DBG] Поле Password заполнено
+2025-11-18 18:16:03.805 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 18:16:05.821 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 18:16:26.236 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-18 18:16:38.927 +04:00 [DBG] Значение 'Software Engineer' успешно выбрано в поле 'Job Title'
+2025-11-18 18:16:38.927 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-18 18:16:51.579 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-18 18:16:51.579 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-18 18:17:04.244 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-18 18:17:04.244 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-18 18:17:16.933 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-18 18:17:16.933 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-18 18:17:29.610 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-18 18:17:31.169 +04:00 [INF] Сотрудник успешно добавлен с ID: EOO8MSO
+2025-11-18 18:17:31.298 +04:00 [INF] Сотрудник сохранен в БД: EOO8MSO
+2025-11-18 18:17:31.298 +04:00 [INF] Данные сотрудника сохранены в БД: EOO8MSO
+2025-11-18 18:17:31.393 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: EOO8MSO
+2025-11-18 18:17:31.406 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 91356.9482 ms
+2025-11-18 18:20:49.343 +04:00 [INF] Получен запрос на создание претензии для сотрудника: EOO8MSO
+2025-11-18 18:20:49.344 +04:00 [INF] Начало создания претензии для сотрудника: EOO8MSO
+2025-11-18 18:20:49.344 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 18:20:50.569 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 18:20:50.569 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 18:20:52.678 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 18:20:53.003 +04:00 [DBG] Поле Username заполнено
+2025-11-18 18:20:53.057 +04:00 [DBG] Поле Password заполнено
+2025-11-18 18:20:53.103 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 18:20:55.123 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 18:20:58.693 +04:00 [DBG] Сотрудник найден в БД: EOO8MSO
+2025-11-18 18:20:58.694 +04:00 [INF] Получено ФИО из БД для employeeId EOO8MSO: Иван Петрович Сидоров
+2025-11-18 18:21:43.175 +04:00 [INF] Претензия успешно создана с Reference ID: 7
+2025-11-18 18:21:43.256 +04:00 [INF] Претензия успешно создана. Reference ID: 7
+2025-11-18 18:21:43.257 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 53921.5246 ms

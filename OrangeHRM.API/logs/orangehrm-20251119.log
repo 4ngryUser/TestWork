@@ -1,0 +1,289 @@
+2025-11-19 12:38:43.242 +04:00 [INF] База данных инициализирована
+2025-11-19 12:38:43.394 +04:00 [INF] OrangeHRM API запущен
+2025-11-19 12:39:18.400 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.2313 ms
+2025-11-19 12:39:18.628 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 101.9421 ms
+2025-11-19 12:45:41.432 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 0.1031 ms
+2025-11-19 12:45:41.440 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 2.8078 ms
+2025-11-19 12:47:09.012 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 0.0260 ms
+2025-11-19 12:47:09.117 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 13.8894 ms
+2025-11-19 12:48:37.412 +04:00 [INF] База данных инициализирована
+2025-11-19 12:48:37.474 +04:00 [INF] OrangeHRM API запущен
+2025-11-19 12:49:12.462 +04:00 [WRN] Failed to determine the https port for redirect.
+2025-11-19 12:49:12.549 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 89.9537 ms
+2025-11-19 12:51:05.723 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-19 12:51:06.136 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-19 12:51:06.139 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 12:51:07.745 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 12:51:07.748 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 12:51:10.308 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 12:51:10.797 +04:00 [DBG] Поле Username заполнено
+2025-11-19 12:51:10.850 +04:00 [DBG] Поле Password заполнено
+2025-11-19 12:51:10.897 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 12:51:12.910 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 12:51:33.408 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:52:25.465 +04:00 [ERR] Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:52:25.466 +04:00 [ERR] Ошибка при добавлении сотрудника
+System.Exception: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+   at OrangeHRM.API.Services.EmployeeService.SelectDropdownValue(IWebDriver driver, String fieldLabel, String value) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 261
+   at OrangeHRM.API.Services.EmployeeService.FillJobDetails(IWebDriver driver, JobDetails job) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 231
+   at OrangeHRM.API.Services.EmployeeService.AddEmployeeAsync(EmployeeRequest request) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 75
+2025-11-19 12:52:25.548 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Ошибка при добавлении сотрудника: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:52:25.555 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 79840.9629 ms
+2025-11-19 12:53:28.823 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-19 12:53:28.824 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-19 12:53:28.826 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 12:53:29.886 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 12:53:29.887 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 12:53:32.509 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 12:53:33.369 +04:00 [DBG] Поле Username заполнено
+2025-11-19 12:53:33.422 +04:00 [DBG] Поле Password заполнено
+2025-11-19 12:53:33.466 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 12:53:35.491 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 12:53:55.956 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:54:48.089 +04:00 [ERR] Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:54:48.090 +04:00 [ERR] Ошибка при добавлении сотрудника
+System.Exception: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+   at OrangeHRM.API.Services.EmployeeService.SelectDropdownValue(IWebDriver driver, String fieldLabel, String value) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 261
+   at OrangeHRM.API.Services.EmployeeService.FillJobDetails(IWebDriver driver, JobDetails job) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 231
+   at OrangeHRM.API.Services.EmployeeService.AddEmployeeAsync(EmployeeRequest request) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 75
+2025-11-19 12:54:48.165 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Ошибка при добавлении сотрудника: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 12:54:48.166 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 79346.0043 ms
+2025-11-19 13:03:57.187 +04:00 [INF] База данных инициализирована
+2025-11-19 13:03:57.291 +04:00 [INF] OrangeHRM API запущен
+2025-11-19 13:04:20.765 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.3612 ms
+2025-11-19 13:04:20.884 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-19 13:04:20.905 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-19 13:04:20.907 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:04:22.037 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:04:22.043 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:04:24.216 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:04:24.606 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:04:24.665 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:04:25.666 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:04:27.681 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:04:48.334 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-19 13:05:40.459 +04:00 [ERR] Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 13:05:40.467 +04:00 [ERR] Ошибка при добавлении сотрудника
+System.Exception: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+   at OrangeHRM.API.Services.EmployeeService.SelectDropdownValue(IWebDriver driver, String fieldLabel, String value) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 261
+   at OrangeHRM.API.Services.EmployeeService.FillJobDetails(IWebDriver driver, JobDetails job) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 231
+   at OrangeHRM.API.Services.EmployeeService.AddEmployeeAsync(EmployeeRequest request) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 75
+2025-11-19 13:05:40.565 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Ошибка при добавлении сотрудника: Не удалось выбрать 'Software Engineer' в поле 'Job Title'
+2025-11-19 13:05:40.580 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 79768.5558 ms
+2025-11-19 13:09:17.685 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 0.0770 ms
+2025-11-19 13:09:17.691 +04:00 [INF] Получен запрос на добавление сотрудника: Зефир Зефиркин
+2025-11-19 13:09:17.691 +04:00 [INF] Начало добавления сотрудника: Зефир Зефировович Зефиркин
+2025-11-19 13:09:17.691 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:09:18.862 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:09:18.863 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:09:20.976 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:09:21.354 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:09:21.405 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:09:21.450 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:09:23.464 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:09:44.252 +04:00 [DBG] Попытка выбрать значение 'Software Developer' в поле 'Job Title'
+2025-11-19 13:09:56.883 +04:00 [DBG] Значение 'Software Developer' успешно выбрано в поле 'Job Title'
+2025-11-19 13:09:56.883 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-19 13:10:09.515 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-19 13:10:09.515 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-19 13:10:22.145 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-19 13:10:22.146 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-19 13:10:34.805 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-19 13:10:34.805 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-19 13:10:47.443 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-19 13:10:48.993 +04:00 [INF] Сотрудник успешно добавлен с ID: QREPSS1
+2025-11-19 13:10:49.127 +04:00 [INF] Сотрудник сохранен в БД: QREPSS1
+2025-11-19 13:10:49.127 +04:00 [INF] Данные сотрудника сохранены в БД: QREPSS1
+2025-11-19 13:10:49.202 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: QREPSS1
+2025-11-19 13:10:49.202 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 91512.7895 ms
+2025-11-19 13:11:06.213 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 307 in 0.0234 ms
+2025-11-19 13:11:06.222 +04:00 [INF] Получен запрос на создание претензии для сотрудника: EOO8MSO
+2025-11-19 13:11:06.222 +04:00 [INF] Начало создания претензии для сотрудника: EOO8MSO
+2025-11-19 13:11:06.223 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:11:07.294 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:11:07.294 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:11:09.254 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:11:09.590 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:11:09.641 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:11:09.684 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:11:11.707 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:11:15.471 +04:00 [DBG] Сотрудник найден в БД: EOO8MSO
+2025-11-19 13:11:15.471 +04:00 [INF] Получено ФИО из БД для employeeId EOO8MSO: Иван Петрович Сидоров
+2025-11-19 13:11:23.802 +04:00 [ERR] Ошибка при выборе сотрудника из автокомплита
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.82)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocompleteInternal(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 230
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocomplete(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 150
+   at OrangeHRM.API.Services.ClaimService.SelectEmployeeFromAutocomplete(IWebDriver driver, String employeeName) in L:\TestWork\OrangeHRM.API\Services\ClaimService.cs:line 151
+2025-11-19 13:11:23.838 +04:00 [WRN] Не удалось создать претензию. Ошибка: Сотрудник 'Иван Петрович Сидоров' не найден в системе OrangeHRM
+2025-11-19 13:11:23.839 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 17625.5886 ms
+2025-11-19 13:19:47.594 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 307 in 0.0233 ms
+2025-11-19 13:19:47.599 +04:00 [INF] Получен запрос на создание претензии для сотрудника: EOO8MSO
+2025-11-19 13:19:47.599 +04:00 [INF] Начало создания претензии для сотрудника: EOO8MSO
+2025-11-19 13:19:47.599 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:19:48.821 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:19:48.821 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:19:50.913 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:19:51.241 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:19:51.292 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:19:51.337 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:19:53.354 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:19:56.951 +04:00 [DBG] Сотрудник найден в БД: EOO8MSO
+2025-11-19 13:19:56.951 +04:00 [INF] Получено ФИО из БД для employeeId EOO8MSO: Иван Петрович Сидоров
+2025-11-19 13:20:03.748 +04:00 [ERR] Ошибка при выборе сотрудника из автокомплита
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.82)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocompleteInternal(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 230
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocomplete(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 150
+   at OrangeHRM.API.Services.ClaimService.SelectEmployeeFromAutocomplete(IWebDriver driver, String employeeName) in L:\TestWork\OrangeHRM.API\Services\ClaimService.cs:line 151
+2025-11-19 13:20:03.795 +04:00 [WRN] Не удалось создать претензию. Ошибка: Сотрудник 'Иван Петрович Сидоров' не найден в системе OrangeHRM
+2025-11-19 13:20:03.795 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 16197.1457 ms
+2025-11-19 13:20:07.875 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 0.0236 ms
+2025-11-19 13:20:07.876 +04:00 [INF] Получен запрос на добавление сотрудника: Зефир Зефиркин
+2025-11-19 13:20:07.876 +04:00 [INF] Начало добавления сотрудника: Зефир Зефировович Зефиркин
+2025-11-19 13:20:07.876 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:20:08.952 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:20:08.952 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:20:13.613 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:20:14.528 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:20:14.578 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:20:14.624 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:20:16.642 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:20:37.498 +04:00 [DBG] Попытка выбрать значение 'Software Developer' в поле 'Job Title'
+2025-11-19 13:20:50.183 +04:00 [DBG] Значение 'Software Developer' успешно выбрано в поле 'Job Title'
+2025-11-19 13:20:50.183 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-19 13:21:02.837 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-19 13:21:02.837 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-19 13:21:15.506 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-19 13:21:15.506 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-19 13:21:28.155 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-19 13:21:28.155 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-19 13:21:40.820 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-19 13:21:42.380 +04:00 [INF] Сотрудник успешно добавлен с ID: 2G4LEP6
+2025-11-19 13:21:42.388 +04:00 [INF] Сотрудник сохранен в БД: 2G4LEP6
+2025-11-19 13:21:42.388 +04:00 [INF] Данные сотрудника сохранены в БД: 2G4LEP6
+2025-11-19 13:21:42.463 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: 2G4LEP6
+2025-11-19 13:21:42.463 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 94587.2293 ms
+2025-11-19 13:22:02.328 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 307 in 0.0270 ms
+2025-11-19 13:22:02.329 +04:00 [INF] Получен запрос на создание претензии для сотрудника: EOO8MSO
+2025-11-19 13:22:02.329 +04:00 [INF] Начало создания претензии для сотрудника: EOO8MSO
+2025-11-19 13:22:02.329 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 13:22:03.344 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 13:22:03.344 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 13:22:05.533 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 13:22:06.088 +04:00 [DBG] Поле Username заполнено
+2025-11-19 13:22:06.139 +04:00 [DBG] Поле Password заполнено
+2025-11-19 13:22:06.184 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 13:22:09.148 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 13:22:14.362 +04:00 [DBG] Сотрудник найден в БД: EOO8MSO
+2025-11-19 13:22:14.362 +04:00 [INF] Получено ФИО из БД для employeeId EOO8MSO: Иван Петрович Сидоров
+2025-11-19 13:22:18.966 +04:00 [ERR] Ошибка при выборе сотрудника из автокомплита
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.82)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocompleteInternal(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 230
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromAutocomplete(IWebDriver driver, By inputLocator, String searchText) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 150
+   at OrangeHRM.API.Services.ClaimService.SelectEmployeeFromAutocomplete(IWebDriver driver, String employeeName) in L:\TestWork\OrangeHRM.API\Services\ClaimService.cs:line 151
+2025-11-19 13:22:19.004 +04:00 [WRN] Не удалось создать претензию. Ошибка: Сотрудник 'Иван Петрович Сидоров' не найден в системе OrangeHRM
+2025-11-19 13:22:19.004 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 16676.2231 ms
+2025-11-19 19:04:00.339 +04:00 [INF] База данных инициализирована
+2025-11-19 19:04:00.500 +04:00 [INF] OrangeHRM API запущен
+2025-11-19 19:04:18.825 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.2504 ms
+2025-11-19 19:04:18.954 +04:00 [INF] Получен запрос на добавление сотрудника: Зефир Зефиркин
+2025-11-19 19:04:19.394 +04:00 [INF] Начало добавления сотрудника: Зефир Зефировович Зефиркин
+2025-11-19 19:04:19.396 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 19:04:20.887 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 19:04:20.893 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 19:04:23.015 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 19:04:23.345 +04:00 [DBG] Поле Username заполнено
+2025-11-19 19:04:23.398 +04:00 [DBG] Поле Password заполнено
+2025-11-19 19:04:23.445 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 19:04:25.464 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 19:04:46.012 +04:00 [DBG] Попытка выбрать значение 'Software Developer' в поле 'Job Title'
+2025-11-19 19:05:34.212 +04:00 [ERR] Ошибка при добавлении сотрудника
+OpenQA.Selenium.WebDriverException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.82)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at OrangeHRM.API.Helpers.WebAutomationHelper.TrySelectFromDropdown(IWebDriver driver, By dropdownLocator, String value) in L:\TestWork\OrangeHRM.API\Helpers\WebAutomationHelper.cs:line 103
+   at OrangeHRM.API.Services.EmployeeService.SelectDropdownValue(IWebDriver driver, String fieldLabel, String value) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 252
+   at OrangeHRM.API.Services.EmployeeService.FillJobDetails(IWebDriver driver, JobDetails job) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 228
+   at OrangeHRM.API.Services.EmployeeService.AddEmployeeAsync(EmployeeRequest request) in L:\TestWork\OrangeHRM.API\Services\EmployeeService.cs:line 75
+2025-11-19 19:05:34.273 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Ошибка при добавлении сотрудника: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.82)
+2025-11-19 19:05:34.288 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 75407.8126 ms
+2025-11-19 19:06:46.371 +04:00 [INF] База данных инициализирована
+2025-11-19 19:06:46.461 +04:00 [INF] OrangeHRM API запущен
+2025-11-19 19:07:01.917 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.0497 ms
+2025-11-19 19:07:02.031 +04:00 [INF] Получен запрос на добавление сотрудника: Зефир Зефиркин
+2025-11-19 19:07:02.038 +04:00 [INF] Начало добавления сотрудника: Зефир Зефировович Зефиркин
+2025-11-19 19:07:02.039 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 19:07:02.878 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 19:07:02.882 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 19:07:05.007 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 19:07:05.364 +04:00 [DBG] Поле Username заполнено
+2025-11-19 19:07:05.419 +04:00 [DBG] Поле Password заполнено
+2025-11-19 19:07:05.466 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 19:07:07.482 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 19:07:27.951 +04:00 [DBG] Попытка выбрать значение 'Software Engineer' в поле 'Job Title'
+2025-11-19 19:07:40.670 +04:00 [DBG] Значение 'Software Engineer' успешно выбрано в поле 'Job Title'
+2025-11-19 19:07:40.670 +04:00 [DBG] Попытка выбрать значение 'Technicians' в поле 'Job Category'
+2025-11-19 19:08:05.067 +04:00 [DBG] Значение 'Technicians' успешно выбрано в поле 'Job Category'
+2025-11-19 19:08:05.067 +04:00 [DBG] Попытка выбрать значение 'Engineering' в поле 'Sub Unit'
+2025-11-19 19:08:17.744 +04:00 [DBG] Значение 'Engineering' успешно выбрано в поле 'Sub Unit'
+2025-11-19 19:08:17.744 +04:00 [DBG] Попытка выбрать значение 'Texas R&D' в поле 'Location'
+2025-11-19 19:08:30.439 +04:00 [DBG] Значение 'Texas R&D' успешно выбрано в поле 'Location'
+2025-11-19 19:08:30.439 +04:00 [DBG] Попытка выбрать значение 'Full-Time Permanent' в поле 'Employment Status'
+2025-11-19 19:08:43.111 +04:00 [DBG] Значение 'Full-Time Permanent' успешно выбрано в поле 'Employment Status'
+2025-11-19 19:08:44.664 +04:00 [INF] Сотрудник успешно добавлен с ID: H9Z65Q6
+2025-11-19 19:08:44.793 +04:00 [INF] Сотрудник сохранен в БД: H9Z65Q6
+2025-11-19 19:08:44.793 +04:00 [INF] Данные сотрудника сохранены в БД: H9Z65Q6
+2025-11-19 19:08:44.816 +04:00 [INF] Файл test_claim.json обновлен с employeeId: H9Z65Q6
+2025-11-19 19:08:44.906 +04:00 [INF] Сотрудник успешно добавлен. Employee ID: H9Z65Q6
+2025-11-19 19:08:44.918 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 102959.6827 ms
+2025-11-19 19:09:13.872 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 307 in 0.0977 ms
+2025-11-19 19:09:13.881 +04:00 [INF] Получен запрос на создание претензии для сотрудника: H9Z65Q6
+2025-11-19 19:09:13.882 +04:00 [INF] Начало создания претензии для сотрудника: H9Z65Q6
+2025-11-19 19:09:13.883 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-19 19:09:14.907 +04:00 [INF] ChromeDriver успешно создан
+2025-11-19 19:09:14.907 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-19 19:09:16.918 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-19 19:09:17.237 +04:00 [DBG] Поле Username заполнено
+2025-11-19 19:09:17.289 +04:00 [DBG] Поле Password заполнено
+2025-11-19 19:09:17.334 +04:00 [DBG] Кнопка Login нажата
+2025-11-19 19:09:19.346 +04:00 [INF] Авторизация успешно выполнена
+2025-11-19 19:09:22.925 +04:00 [DBG] Сотрудник найден в БД: H9Z65Q6
+2025-11-19 19:09:22.925 +04:00 [INF] Получено ФИО из БД для employeeId H9Z65Q6: Зефир Зефировович Зефиркин
+2025-11-19 19:10:07.397 +04:00 [INF] Претензия успешно создана с Reference ID: 9
+2025-11-19 19:10:07.474 +04:00 [INF] Претензия успешно создана. Reference ID: 9
+2025-11-19 19:10:07.476 +04:00 [INF] HTTP POST /api/OrangeHRM/claim responded 200 in 53602.0927 ms

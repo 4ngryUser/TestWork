@@ -1,0 +1,12 @@
+{
+  "firstName": "Зефир",
+  "middleName": "Зефировович",
+  "lastName": "Зефиркин",
+  "job": {
+    "jobTitle": "Software Engineer",
+    "jobCategory": "Technicians",
+    "subUnit": "Engineering",
+    "location": "Texas R&D",
+    "employmentStatus": "Full-Time Contract"
+  }
+}

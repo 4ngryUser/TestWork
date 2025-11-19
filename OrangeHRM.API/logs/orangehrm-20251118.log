@@ -1,0 +1,26 @@
+2025-11-18 17:29:12.806 +04:00 [INF] База данных инициализирована
+2025-11-18 17:29:12.963 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:34:56.117 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 2.2076 ms
+2025-11-18 17:34:56.322 +04:00 [INF] Получен запрос на добавление сотрудника: Иван Сидоров
+2025-11-18 17:34:56.748 +04:00 [INF] Начало добавления сотрудника: Иван Петрович Сидоров
+2025-11-18 17:34:56.749 +04:00 [INF] Создание ChromeDriver. Headless: false
+2025-11-18 17:34:58.359 +04:00 [INF] ChromeDriver успешно создан
+2025-11-18 17:34:58.365 +04:00 [INF] Начало авторизации на https://opensource-demo.orangehrmlive.com
+2025-11-18 17:35:00.483 +04:00 [DBG] Переход на страницу авторизации выполнен
+2025-11-18 17:35:00.836 +04:00 [DBG] Поле Username заполнено
+2025-11-18 17:35:00.894 +04:00 [DBG] Поле Password заполнено
+2025-11-18 17:35:00.942 +04:00 [DBG] Кнопка Login нажата
+2025-11-18 17:35:02.964 +04:00 [INF] Авторизация успешно выполнена
+2025-11-18 17:35:26.523 +04:00 [WRN] Employment Status: значение 'Full-Time Contract' не найдено. Доступные: -- Select --, Full-Time Permanent, Full-Time Probation, Helloworld, jhondhoe, Part-Time Contract, Part-Time Internship
+2025-11-18 17:35:26.613 +04:00 [WRN] Не удалось добавить сотрудника. Ошибка: Employment Status 'Full-Time Contract' not found
+2025-11-18 17:35:26.628 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 200 in 30384.0380 ms
+2025-11-18 17:40:34.111 +04:00 [INF] База данных инициализирована
+2025-11-18 17:40:34.199 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:41:34.166 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.0954 ms
+2025-11-18 17:41:34.306 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 93.1459 ms
+2025-11-18 17:41:51.960 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 0.0815 ms
+2025-11-18 17:41:51.963 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 1.9021 ms
+2025-11-18 17:42:39.756 +04:00 [INF] База данных инициализирована
+2025-11-18 17:42:39.857 +04:00 [INF] OrangeHRM API запущен
+2025-11-18 17:43:25.145 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 307 in 1.3199 ms
+2025-11-18 17:43:25.285 +04:00 [INF] HTTP POST /api/OrangeHRM/employee responded 400 in 94.3713 ms
